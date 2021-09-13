@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+h1{
+    font-family: 'IM Fell English SC', serif;
+    font-size: 60pt;
+    text-align: center;
+    margin-bottom: 2rem;
+    color:red;
+    font-weight: lighter;
+}
+
+.battleground{
+    background-color: rgb(0, 59, 0);
+    width: 80vw;
+    height: 80vh;
+    border: black 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.divChar{
+    display: inline-block;
+    background-color: chartreuse;
+    width: 20%;
+    height: 70%;
+    margin-left: 2%;
+    margin-top: 5rem;
+
+}
+
+.divMons{
+    display: inline-block;
+    background-color:chartreuse;
+    width: 20%;
+    height: 70%;
+    margin-left: 40%;
+    margin-top: 5rem;
+
+}
+
+.vidaChar{
+    background-color: red;
+    height: 3rem;
+    width: 20rem;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.vidaMons{
+    background-color: red;
+    height: 3rem;
+    width: 20rem;
+    margin: 0px auto;
+    border: black 2px solid;
+    text-align: center;
+
+}
+
+img{
+    width: 100%;
+    margin: 0px auto;
+
+}
+
+p{
+    font-size: 27pt;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+
+.tagName{
+    font-size: 30pt;
+    text-align: center;
+    font-weight: bold;
+}
+
+.divBoton{
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boton{
+    width: 10rem;
+    height: 3rem;
+    font-size: 25pt;
+}
+
+h2{
+    text-align: center;
+    font-family: 'IM Fell English SC', serif;
+    font-size: 24pt;
+}
+
+.item{
+    color: white;
+    text-align: center;
+    margin-left: 2rem;
+    width: 100px;
+    height: 100px;
+    border: 2px red solid;
+    display: inline-block;
+    background-color: black;
+}
+
+.pocion{
+    width: 65px;
+}
