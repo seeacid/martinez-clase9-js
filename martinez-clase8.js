@@ -196,6 +196,13 @@ class Monstruo{
 
     }
 
+
+    
+   
+    
+
+  
+
     let botonRun = document.getElementById("run")
     botonRun.addEventListener("click",botonAtk)
 
@@ -204,6 +211,36 @@ class Monstruo{
 
     let charHp = document.getElementById("vc")
     charHp.textContent = personaje1.vida+"/100"
+
+
+  
+
+    
+
+
+    let itemsMochila = document.createElement("div")
+    itemsMochila.className = "backpack"
+    let backpackx = document.getElementById("mochila")
+    let mochilaParent = backpackx.parentNode 
+    let pocion2 = document.createElement("img")
+    pocion2.src = "potion.png"
+    pocion2.className = "pocion"
+    let pocion3 = document.createElement("img")
+    pocion3.src = "potion2.png"
+    pocion3.className = "pocion"
+
+    let pociones = [pocion2,pocion3]
+
+    function abrirMochila(){
+        backpackx.setAttribute("background-color","red")
+        mochilaParent.insertBefore(itemsMochila,backpackx.nextSibling)
+        for(let i = 0 ; i<pociones.length ; i++){
+            itemsMochila.appendChild(pociones[i])
+        }
+    }
+
+
+    backpackx.addEventListener("click",abrirMochila)
 
 
 
